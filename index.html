@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Multilevel Navigation Menu</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   <nav>
+      <div class="nav-menu">
+         <div class="menu-btn">
+            <img id="btn-menu-open" class="collapse-btn" src="assets/img/menu-button-white.svg" alt="">
+            <img id="btn-menu-close" class="collapse-btn" src="assets/img/x.svg" alt="">
+         </div>
+         <ul class="topmenu">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Комплектующие <i class="bi bi-check"></i></a>
+               <ul class="submenu">
+                  <li><a href="#">Жесткие диски <i class="bi bi-check"></i></a>
+                     <ul class="submenu">
+                        <li><a href="#">HDD</a></li>
+                        <li><a href="#">SSD</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Оперативная память <i class="bi bi-check"></i></a>
+                     <ul class="submenu">
+                        <li><a href="#">DDR-2</a></li>
+                        <li><a href="#">DDR-3</a></li>
+                        <li><a href="#">DDR-4</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#">Видеокарты <i class="bi bi-check"></i></a>
+                     <ul class="submenu">
+                        <li><a href="#">nVidia</a></li>
+                        <li><a href="#">ATI</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">О нас</a></li>
+         </ul>
+      </div>
+   </nav>
+   <h3>Main content here</h3>
+   <script src="assets/js/script.js"></script>
+</body>
+</html>
